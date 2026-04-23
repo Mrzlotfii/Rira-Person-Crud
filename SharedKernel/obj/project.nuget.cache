@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "2AM9TeK9B34=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\m.lotfi\\RiderProjects\\Riraa\\SharedKernel\\SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\idgen\\3.0.7\\idgen.3.0.7.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\11.0.0-preview.3.26207.106\\microsoft.extensions.dependencyinjection.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\11.0.0-preview.3.26207.106\\microsoft.extensions.dependencyinjection.abstractions.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.logging\\11.0.0-preview.3.26207.106\\microsoft.extensions.logging.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\11.0.0-preview.3.26207.106\\microsoft.extensions.logging.abstractions.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.options\\11.0.0-preview.3.26207.106\\microsoft.extensions.options.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.primitives\\11.0.0-preview.3.26207.106\\microsoft.extensions.primitives.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\system.buffers\\4.6.1\\system.buffers.4.6.1.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\11.0.0-preview.3.26207.106\\system.diagnostics.diagnosticsource.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.1.2\\system.runtime.compilerservices.unsafe.6.1.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkg-stg.ziapp360.ir/repository/nuget/index.json.",
+      "projectPath": "C:\\Users\\m.lotfi\\RiderProjects\\Riraa\\SharedKernel\\SharedKernel.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\m.lotfi\\RiderProjects\\Riraa\\SharedKernel\\SharedKernel.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

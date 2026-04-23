@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "HHzTp2SU5s8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\m.lotfi\\RiderProjects\\Riraa\\Profile\\Profile.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\google.api.commonprotos\\2.15.0\\google.api.commonprotos.2.15.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\google.protobuf\\3.31.1\\google.protobuf.3.31.1.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\grpc.aspnetcore\\2.64.0\\grpc.aspnetcore.2.64.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\grpc.aspnetcore.server\\2.76.0\\grpc.aspnetcore.server.2.76.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.64.0\\grpc.aspnetcore.server.clientfactory.2.64.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\grpc.aspnetcore.server.reflection\\2.76.0\\grpc.aspnetcore.server.reflection.2.76.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\grpc.core.api\\2.76.0\\grpc.core.api.2.76.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\grpc.net.client\\2.64.0\\grpc.net.client.2.64.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\grpc.net.clientfactory\\2.64.0\\grpc.net.clientfactory.2.64.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\grpc.net.common\\2.76.0\\grpc.net.common.2.76.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\grpc.reflection\\2.76.0\\grpc.reflection.2.76.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\grpc.tools\\2.80.0\\grpc.tools.2.80.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\idgen\\3.0.7\\idgen.3.0.7.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.aspnetcore.grpc.jsontranscoding\\10.0.7\\microsoft.aspnetcore.grpc.jsontranscoding.10.0.7.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\11.0.0-preview.3.26207.106\\microsoft.extensions.dependencyinjection.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\11.0.0-preview.3.26207.106\\microsoft.extensions.dependencyinjection.abstractions.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.0\\microsoft.extensions.dependencymodel.10.0.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.logging\\11.0.0-preview.3.26207.106\\microsoft.extensions.logging.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\11.0.0-preview.3.26207.106\\microsoft.extensions.logging.abstractions.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.options\\11.0.0-preview.3.26207.106\\microsoft.extensions.options.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\microsoft.extensions.primitives\\11.0.0-preview.3.26207.106\\microsoft.extensions.primitives.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\scrutor\\7.0.0\\scrutor.7.0.0.nupkg.sha512",
+    "C:\\Users\\m.lotfi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\11.0.0-preview.3.26207.106\\system.diagnostics.diagnosticsource.11.0.0-preview.3.26207.106.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkg-stg.ziapp360.ir/repository/nuget/index.json.",
+      "projectPath": "C:\\Users\\m.lotfi\\RiderProjects\\Riraa\\Profile\\Profile.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\m.lotfi\\RiderProjects\\Riraa\\Profile\\Profile.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

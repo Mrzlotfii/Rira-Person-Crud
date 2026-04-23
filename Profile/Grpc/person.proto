@@ -1,0 +1,82 @@
+syntax = "proto3";
+
+import "google/api/annotations.proto";
+
+option csharp_namespace = "Profile.Grpc";
+
+service PersonCrud {
+  rpc CreatePerson (CreatePersonGrpcRequest) returns (GrpcPersonResponse) {
+    option (google.api.http) = {
+      post: "/v1/persons"
+      body: "*"
+    };
+  }
+  rpc GetPerson (GetPersonGrpcRequest) returns (GrpcPersonResponse) {
+    option (google.api.http) = {
+      get: "/v1/persons/{id}"
+    };
+  }
+  rpc UpdatePerson (UpdatePersonGrpcRequest) returns (GrpcPersonResponse) {
+    option (google.api.http) = {
+      put: "/v1/persons/{id}"
+      body: "*"
+    };
+  }
+  rpc DeletePerson (DeletePersonGrpcRequest) returns (DeletePersonGrpcResponse) {
+    option (google.api.http) = {
+      delete: "/v1/persons/{id}"
+    };
+  }
+  rpc GetPersons (GetPersonsGrpcRequest) returns (GetPersonsGrpcResponse) {
+    option (google.api.http) = {
+      get: "/v1/persons"
+    };
+  }
+}
+
+message PersonGrpc {
+  int64 id = 1;
+  string national_code = 2;
+  string first_name = 3;
+  string last_name = 4;
+  string date_of_birth = 5;
+  int32 age = 6;
+}
+
+message CreatePersonGrpcRequest {
+  string first_name = 1;
+  string last_name = 2;
+  string national_code = 3;
+  string date_of_birth = 4;
+}
+
+message GetPersonGrpcRequest {
+  int64 id = 1;
+}
+
+message UpdatePersonGrpcRequest {
+  int64 id = 1;
+  string national_code = 2;
+  string first_name = 3;
+  string last_name = 4;
+  string date_of_birth = 5;
+}
+
+message DeletePersonGrpcRequest {
+  int64 id = 1;
+}
+
+message GrpcPersonResponse {
+  PersonGrpc person = 1;
+}
+
+message DeletePersonGrpcResponse {
+  bool success = 1;
+}
+
+message GetPersonsGrpcRequest {
+}
+
+message GetPersonsGrpcResponse {
+  repeated PersonGrpc persons = 1;
+}
